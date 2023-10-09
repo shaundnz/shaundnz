@@ -23,7 +23,9 @@
 	$: topLeftPos = getTopLeftPos(data.thisPageIndex);
 </script>
 
-<div class="overflow-x-hidden max-h-screen">
+<!-- On desktop, set height to screen, then move the scroll bar inside the page content so it doesn't affect bottom navbar  -->
+<!-- On mobile scroll bar is an overlay so doesn't affect bottom navbar pos -->
+<div class="overflow-x-hidden md:max-h-screen">
 	{#key data.url}
 		<SlidePage
 			slidePageInFromRight={$pageIndexStore.currentPageIndex > $pageIndexStore.previousPageIndex}
@@ -35,8 +37,10 @@
 	{/key}
 </div>
 
-<div class={`fixed h-0.5 w-1/3 bg-secondary bottom-16 ${topLeftPos} transition-all duration-500`} />
-<div class="btm-nav font-mono">
+<div
+	class={`fixed h-0.5 w-1/3 bg-secondary bottom-16 ${topLeftPos} transition-all duration-500 translate-y-0.5 z-50`}
+/>
+<div class="btm-nav font-mono text-sm md:text-base z-10">
 	<a href="/" on:click={() => setCurrentPageIndex(0)}>
 		<span class="btm-nav-label">&ltHome /&gt</span>
 	</a>
