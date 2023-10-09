@@ -75,7 +75,7 @@
 				>
 				<p>
 					Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar,
-					and pre-order E-commerce & Marketing pages.
+					and pre-order E-commerce & Marketing pages. Lorem Ipsum
 				</p>
 			</li>
 			<li class="mb-8 ml-6 relative">
