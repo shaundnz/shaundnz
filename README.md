@@ -1,38 +1,12 @@
-# create-svelte
+# Hi There, I'm Shaun 👋
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+I am a full stack developer working at [Cornerstone OnDemand](https://www.cornerstoneondemand.com). My day to day involves working on full stack applications with React and C#/ASP.NET, I work within an agile team with a alongside great developers to build new features and maintain [Check-Ins](https://help.csod.com/help/csod_0/Content/User/Careers/Check-Ins/Check-Ins_-_Overview_-_End_User.htm). 
 
-## Creating a project
+On here, I like to experiment with new technologies that I don't get the chance to use at work to build things that interest me.
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+<table style="text-align:center;"  align="center">
+  <tr>
+    <td><a href="https://shaundnz.com" target="_blank"><p align="center"><strong>Visit My Website</strong></p><img src="https://i.imgur.com/AZKRSg1.png" width="400" valign="middle" /></a></td>
+    <td><a href="https://chat-app.shaundnz.com" target="_blank"><p align="center"><strong>Project Showcase: Chat-App</strong></p><img src="https://i.imgur.com/vNrA9T4.png" width="400" valign="middle" /></a></td>
+  </tr>
+</table>
