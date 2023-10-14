@@ -1,6 +1,6 @@
 # Hi There, I'm Shaun 👋
 
-I am a full stack developer working at [Cornerstone OnDemand](https://www.cornerstoneondemand.com). My day to day involves working on full stack applications with React and C#/ASP.NET, I work within an agile team with a alongside great developers to build new features and maintain [Check-Ins](https://help.csod.com/help/csod_0/Content/User/Careers/Check-Ins/Check-Ins_-_Overview_-_End_User.htm). 
+I am a full stack developer working at [Cornerstone OnDemand](https://www.cornerstoneondemand.com). My day to day involves working on full stack applications with React and C#/ASP.NET, I work within an agile team alongside great developers to build new features and maintain [Check-Ins](https://help.csod.com/help/csod_0/Content/User/Careers/Check-Ins/Check-Ins_-_Overview_-_End_User.htm). 
 
 On here, I like to experiment with new technologies that I don't get the chance to use at work to build things that interest me.
 
