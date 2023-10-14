@@ -4,6 +4,8 @@ I am a full stack developer working at [Cornerstone OnDemand](https://www.corner
 
 On here, I like to experiment with new technologies that I don't get the chance to use at work to build things that interest me.
 
+---
+
 <table style="text-align:center;"  align="center">
   <tr>
     <td><a href="https://shaundnz.com" target="_blank"><p align="center"><strong>Visit My Website</strong></p><img src="https://i.imgur.com/AZKRSg1.png" width="400" valign="middle" /></a></td>
