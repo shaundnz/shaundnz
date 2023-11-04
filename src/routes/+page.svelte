@@ -2,6 +2,9 @@
 	import Typewriter from 'svelte-typewriter';
 </script>
 
+<head>
+	<title> Shaun Price </title>
+</head>
 <div class="hero h-screen">
 	<div class="hero-content text-center">
 		<div>
@@ -17,7 +20,9 @@
 			<div
 				class="flex flex-col space-y-2 items-center justify-center md:flex-row md:space-y-0 md:space-x-2"
 			>
-				<button class="btn btn-primary btn-lg w-52 text-2xl">CONTACT ME</button>
+				<a class="btn btn-primary btn-lg w-52 text-2xl" href="mailto:shaundnz@gmail.com"
+					>CONTACT ME</a
+				>
 				<button class="btn btn-primary btn-lg btn-outline w-52 text-2xl">RESUME</button>
 			</div>
 			<div class="min-h-16" />

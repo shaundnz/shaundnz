@@ -4,6 +4,10 @@
 	import { projects } from '$lib/constants';
 </script>
 
+<head>
+	<title> Projects </title>
+</head>
+
 <div class="mx-auto max-w-screen-md mt-4 px-4">
 	<PageHeader>PROJECTS</PageHeader>
 	<div class="my-6">
