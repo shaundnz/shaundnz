@@ -82,11 +82,22 @@ export const projects: Project[] = [
 		githubLink: 'https://github.com/shaundnz/chat-group-client',
 		demoLink: 'https://chat-app.shaundnz.com',
 		description: [
-			'A full stack chat application with a frontend client built with Sveltekit, and a REST API and WebSockets backend built with NestJs. The use of WebSockets allows users to send and receive messages instantly from other users.',
-			'This app also has a fully functional deployment pipeline. GitHub actions run on any push to the main branch, which runs the test suite, then deploys the app to AWS. The frontend is a static web app hosted on S3 and served through CloudFront, and the backend is deployed to an ECS cluster, which runs behind an load balancer.',
+			'A full stack chat application similar to Discord or Slack, communicate with anyone in real time!',
+			'Comes with a fully functional CI/CD pipeline, that runs tests and deploys the application to AWS on any push to main. The frontend is a static site hosted on S3 and served through CloudFront, and the backend runs on an ECS cluster behind a load balancer.',
 			'Visit the README to see more information about the application architecture.'
 		]
 	},
+	{
+		title: 'GITIFY',
+		tags: ['Svelte', 'Lambda', 'API Gateway', 'DynamoDB', 'Serverless', 'AWS'],
+		githubLink: 'https://github.com/shaundnz/gitify-client',
+		demoLink: 'https://gitify.shaundnz.com/',
+		description: [
+			'Track how Spotify playlists change over time with version control!',
+			'Serverless Lambdas take a snapshot of tracked playlists once a day and stores this information in a DynamoDB table. An easy to use interface allows you to see the how playlists look at different points in time.'
+		]
+	},
+
 	{
 		title: 'CAT WIKI',
 		tags: ['TypeScript', 'React', 'Next.js'],
