@@ -23,6 +23,10 @@
 	$: topLeftPos = getTopLeftPos(data.thisPageIndex);
 </script>
 
+<head>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+</head>
+
 <!-- On desktop, set height to screen, then move the scroll bar inside the page content so it doesn't affect bottom navbar  -->
 <!-- On mobile scroll bar is an overlay so doesn't affect bottom navbar pos -->
 <div class="overflow-x-hidden md:max-h-screen">
