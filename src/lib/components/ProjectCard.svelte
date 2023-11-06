@@ -10,7 +10,7 @@
 <div>
 	<div class="flex justify-between mb-2">
 		<div>
-			<SectionHeader marginBottom={'0.5'}>{project.title}</SectionHeader>
+			<SectionHeader marginBottom={'1'}>{project.title}</SectionHeader>
 			{#each project.tags as tag}
 				<div class="badge badge-primary badge-outline font-mono">{tag}</div>
 				&thinsp;
