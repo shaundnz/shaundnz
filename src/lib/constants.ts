@@ -2,9 +2,6 @@
 
 import type { JobHistoryItem, Project } from './types';
 
-export const aboutMe =
-	'Currently a software engineer @ Cornerstone OnDemand. Experienced with working on large scale, full stack applications. I love working within a team to solve technical challenges and turning ideas into high quality, reusable, and maintainable code.';
-
 export const languages = [
 	'TypeScript',
 	'JavaScript',

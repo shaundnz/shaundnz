@@ -20,10 +20,12 @@
 			<div
 				class="flex flex-col space-y-2 items-center justify-center md:flex-row md:space-y-0 md:space-x-2"
 			>
-				<a class="btn btn-primary btn-lg w-52 text-2xl" href="mailto:shaundnz@gmail.com"
-					>CONTACT ME</a
-				>
-				<button class="btn btn-primary btn-lg btn-outline w-52 text-2xl">RESUME</button>
+				<a class="btn btn-primary btn-lg w-52 text-2xl" href="mailto:shaundnz@gmail.com">
+					CONTACT ME
+				</a>
+				<a class="btn btn-primary btn-lg btn-outline w-52 text-2xl" href="/Shaun_Price_Resume.pdf">
+					RESUME
+				</a>
 			</div>
 			<div class="min-h-16" />
 		</div>
