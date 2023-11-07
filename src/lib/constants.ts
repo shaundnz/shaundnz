@@ -46,17 +46,17 @@ export const jobHistory: JobHistoryItem[] = [
 		title: 'Software Engineer',
 		timespan: 'Cornerstone OnDemand | March 2023 - Present',
 		bulletPoints: [
-			'Independently implemented an API interface between Check-Ins and Cornerstones internal teams notification service, to push daily updates to check ins users. Managed communications with other teams to align requirements and understand how to integrate with their external services.',
-			'Worked with my team to build new features such a notification service and adding a read only mode to check ins. I was involved in all stages of development, from refining requirements, making architecture decisions, development and testing.',
-			'Solving client and internal defects, requiring a strong understanding of the React frontend and C# backend to diagnose issues and deploy fixes in a timely manner.'
+			"Independently implemented an API interface between Check-Ins (a Cornerstone product) and Cornerstone's internal MS Teams notification service to push daily updates to Check-Ins users. I managed communications with external teams to align requirements and integrate with their services.",
+			'Developed new features for Check-Ins as part of an agile team. Notably, a notification service, and a read-only mode for Check-Ins meetings. I was involved in all stages of development, from refining requirements, making architecture decisions, development, and testing.',
+			'Resolved client and internal defects. I leveraged my proficiency of the React frontend and C# backend to diagnose issues and deploy fixes in a timely manner, as well as write effective tests to prevent regressions.'
 		]
 	},
 	{
 		title: 'Associate Software Engineer',
 		timespan: 'Cornerstone OnDemand | March 2022 - March 2023',
 		bulletPoints: [
-			'Gain extensive experience working with React and ASP.NET within an agile team, on large production codebases, with CI/CD pipelines. I was able to work independently to develop new features and resolve defects.',
-			"Developed a strong understanding of best practices and processes of software development by building new features over multiple quarterly releases. I also regularly reviewed PR's from other engineers, to understand their approach and build my own understanding."
+			'Independently integrated a new Rich Text Editor into Check-Ins, carefully ensuring all existing functionally was maintained. This became a key selling point in retaining a client concerned about the security of the previous text editor.',
+			'Gained extensive experience working with React and ASP.NET within an agile team on large production codebases with CI/CD pipelines. I gained a strong understanding of best practices and processes of software development over multiple releases, and was able to develop new features and resolve defects independently'
 		]
 	},
 	{
