@@ -82,27 +82,30 @@ export const projects: Project[] = [
 			'A full stack chat application similar to Discord or Slack, communicate with anyone in real time!',
 			'Comes with a fully functional CI/CD pipeline, that runs tests and deploys the application to AWS on any push to main. The frontend is a static site hosted on S3 and served through CloudFront, and the backend runs on an ECS cluster behind a load balancer.',
 			'Visit the README to see more information about the application architecture.'
-		]
+		],
+		imageUrl: 'https://i.imgur.com/fnvQxjg.png'
 	},
 	{
 		title: 'GITIFY',
 		tags: ['Svelte', 'Lambda', 'API Gateway', 'DynamoDB', 'Serverless', 'AWS'],
 		githubLink: 'https://github.com/shaundnz/gitify-client',
-		demoLink: 'https://gitify.shaundnz.com/',
+		demoLink: 'https://gitify.shaundnz.com',
 		description: [
 			'Track how Spotify playlists change over time with version control!',
 			'Serverless Lambdas take a snapshot of tracked playlists once a day and stores this information in a DynamoDB table. An easy to use interface allows you to see the how playlists look at different points in time.'
-		]
+		],
+		imageUrl: 'https://i.imgur.com/erz5ECi.png'
 	},
 
 	{
 		title: 'CAT WIKI',
 		tags: ['TypeScript', 'React', 'Next.js'],
 		githubLink: 'https://github.com/shaundnz/cat-wiki',
-		demoLink: 'https://cat-wiki-shaundnz.netlify.app/',
+		demoLink: 'https://cat-wiki-shaundnz.netlify.app',
 		description: [
 			'One stop shop for all information related to our feline friends! Search for different breeds or browse them all!',
 			"Created using NextJS's static site generation features for extremely fast load times. The website was built using a mobile first approach and is fully responsive with the help of the features provided by ChakraUI."
-		]
+		],
+		imageUrl: 'https://i.imgur.com/J6uC77c.png'
 	}
 ];

@@ -10,4 +10,5 @@ export interface Project {
 	githubLink: string;
 	demoLink: string;
 	description: string[];
+	imageUrl: string;
 }
