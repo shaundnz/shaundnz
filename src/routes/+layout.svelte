@@ -30,7 +30,7 @@
 		<SlidePage
 			slidePageInFromRight={$pageIndexStore.currentPageIndex > $pageIndexStore.previousPageIndex}
 		>
-			<div class="overflow-auto">
+			<div>
 				<slot />
 			</div>
 		</SlidePage>
