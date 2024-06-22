@@ -30,7 +30,6 @@ export const frameworks = [
 export const tools = [
 	'Git',
 	'AWS',
-	'Azure',
 	'Docker',
 	'Jira',
 	'Jenkins',
@@ -46,6 +45,7 @@ export const jobHistory: JobHistoryItem[] = [
 		title: 'Software Engineer',
 		timespan: 'Cornerstone OnDemand | March 2023 - Present',
 		bulletPoints: [
+			'Key developer in spearheading company-wide initiative to package Cornerstone products into micro-frontends (MFEs), allowing cross platform integration. Collaborated with multiple external development teams and product managers to align requirements, independently implemented multiple MFEs, and served as the MFE subject matter expert, sharing knowledge with other teams taking part in the initiative.',
 			"Independently implemented an API interface between Check-Ins (a Cornerstone product) and Cornerstone's internal MS Teams notification service to push daily updates to Check-Ins users. I managed communications with external teams to align requirements and integrate with their services.",
 			'Developed new features for Check-Ins as part of an agile team. Notably, a notification service, and a read-only mode for Check-Ins meetings. I was involved in all stages of development, from refining requirements, making architecture decisions, development, and testing.',
 			'Resolved client and internal defects. I leveraged my proficiency of the React frontend and C# backend to diagnose issues and deploy fixes in a timely manner, as well as write effective tests to prevent regressions.'
