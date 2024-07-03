@@ -19,6 +19,12 @@
 			architecture, and motivations.
 		</span>
 	</div>
+	<div>
+		Projects are a way to experiment with new technologies that I don't get the chance to use at
+		work to learn and build things that interest me. Lately, I have been learning about DevOps with
+		AWS and Infrastructure as Code, and have been building my own CI/CD pipelines with GitHub
+		actions.
+	</div>
 	<div class="divider" />
 	<div>
 		{#each projects as project, index}
