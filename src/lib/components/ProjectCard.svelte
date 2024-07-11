@@ -42,10 +42,12 @@
 			</p>
 		{/each}
 	</div>
-	<div class="mockup-browser border bg-base-300">
-		<div class="mockup-browser-toolbar">
-			<div class="input border">{project.demoLink}</div>
+	<a href={project.demoLink}>
+		<div class="mockup-browser border bg-base-300 hover:scale-[1.02] duration-200">
+			<div class="mockup-browser-toolbar">
+				<div class="input border">{project.demoLink}</div>
+			</div>
+			<img src={project.imageUrl} alt={project.title} />
 		</div>
-		<img src={project.imageUrl} alt={project.title} />
-	</div>
+	</a>
 </div>
