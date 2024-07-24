@@ -74,16 +74,16 @@ export const jobHistory: JobHistoryItem[] = [
 
 export const projects: Project[] = [
 	{
-		title: 'CHAT APP',
-		tags: ['Svelte', 'NestJs', 'WebSockets', 'REST API', 'AWS', 'CI/CD'],
-		githubLink: 'https://github.com/shaundnz/chat-group-client',
-		demoLink: 'https://chat-app.shaundnz.com',
+		title: 'Made For All',
+		tags: ['React', 'API Gateway', 'Lambdas', 'AWS', 'CI/CD'],
+		githubLink: 'https://github.com/shaundnz/made-for-all-client',
+		demoLink: 'https://madeforall.shaundnz.com',
 		description: [
-			'A full stack chat application similar to Discord or Slack, communicate with anyone in real time!',
-			'Comes with a fully functional CI/CD pipeline, that runs tests and deploys the application to AWS on any push to main. The frontend is a static site hosted on S3 and served through CloudFront, and the backend runs on an ECS cluster behind a load balancer.',
-			'Visit the README to see more information about the application architecture.'
+			"Remove Spotify's excessive customization of personalized playlists to find more music you haven't heard before.",
+			'This project serves as a sandbox for my continuous learning and experimentation with best practices and new technologies.',
+			'A production-ready app that exemplifies industry best practices, including CI/CD pipelines, comprehensive unit, integration, and end-to-end tests, and multiple deployed environments managed with Infrastructure as Code. The architecture is designed to be opinionated yet easy to understand, extend, and modify.'
 		],
-		imageUrl: 'https://i.imgur.com/fnvQxjg.png'
+		imageUrl: 'https://i.imgur.com/P0sK05v.png'
 	},
 	{
 		title: 'GITIFY',
@@ -94,18 +94,18 @@ export const projects: Project[] = [
 			'Track how Spotify playlists change over time with version control!',
 			'Serverless Lambdas take a snapshot of tracked playlists once a day and stores this information in a DynamoDB table. An easy to use interface allows you to see the how playlists look at different points in time.'
 		],
-		imageUrl: 'https://i.imgur.com/erz5ECi.png'
+		imageUrl: 'https://i.imgur.com/jJ9wSTo.png'
 	},
-
 	{
-		title: 'CAT WIKI',
-		tags: ['TypeScript', 'React', 'Next.js'],
-		githubLink: 'https://github.com/shaundnz/cat-wiki',
-		demoLink: 'https://cat-wiki-shaundnz.netlify.app',
+		title: 'CHAT APP',
+		tags: ['Svelte', 'NestJs', 'WebSockets', 'REST API', 'AWS', 'CI/CD'],
+		githubLink: 'https://github.com/shaundnz/chat-group-client',
+		demoLink: 'https://chat-app.shaundnz.com',
 		description: [
-			'One stop shop for all information related to our feline friends! Search for different breeds or browse them all!',
-			"Created using NextJS's static site generation features for extremely fast load times. The website was built using a mobile first approach and is fully responsive with the help of the features provided by ChakraUI."
+			'A full stack chat application similar to Discord or Slack, communicate with anyone in real time!',
+			'Comes with a fully functional CI/CD pipeline, that runs tests and deploys the application to AWS on any push to main. The frontend is a static site hosted on S3 and served through CloudFront, and the backend runs on an ECS cluster behind a load balancer.',
+			'Visit the README to see more information about the application architecture.'
 		],
-		imageUrl: 'https://i.imgur.com/J6uC77c.png'
+		imageUrl: 'https://i.imgur.com/fnvQxjg.png'
 	}
 ];
